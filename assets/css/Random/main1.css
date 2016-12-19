@@ -1,0 +1,41 @@
+
+@import url("https://fonts.googleapis.com/css?family=Proza+Libre:500" rel="stylesheet");
+
+html{
+	background-image: url("file://H:/MaSite/images/background.jpg");
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+	text-align: center;
+	font-family: "Proza Libre", sans-serif;
+}
+#headerContainer
+{
+	display:table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#headerContent
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#AboutMe 
+{ 
+}
+#AboutMe h1{ 
+	font-size: 25px;
+}
+
+#contact .field {
+
+	padding: .5em 0em 0.01em 2em ;
+	border-radius: 100px;
+
+
+}
